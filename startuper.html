@@ -1,38 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Startuper Dashboard</title>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Startuper Dashboard — FundBridge</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <header class="topbar">
+        <img src="assets/logo.png" alt="FundBridge logo" class="logo">
+        <h1 class="brand">FundBridge</h1>
+    </header>
 
-<div class="dashboard-container">
-    <h1>Startuper Dashboard</h1>
-    <p>Pitch your idea, track investor interest, and manage your profile.</p>
+    <main class="dashboard-container">
+        <h1>Startuper Dashboard</h1>
+        <p class="lead">Create your startup profile and manage investor interest.</p>
 
-    <div class="features">
-        <div class="card">
-            <h3>Create Pitch</h3>
-            <p>Describe your startup and upload visuals.</p>
+        <div class="dashboard-grid">
+            <a href="create-startup.html" class="card">
+                <h3>Create Startup</h3>
+                <p>Submit your startup information.</p>
+            </a>
+
+            <a href="startup-profile.html" class="card">
+                <h3>My Startup Profile</h3>
+                <p>View or update your startup details.</p>
+            </a>
         </div>
-
-        <div class="card">
-            <h3>Investor Views</h3>
-            <p>See who viewed or saved your startup.</p>
-        </div>
-
-        <div class="card">
-            <h3>Learning Hub</h3>
-            <p>Resources to improve pitching and fundraising.</p>
-        </div>
-    </div>
-
-    <a class="back-btn" href="index.html">⬅ Back to Home</a>
-</div>
-
+    </main>
 </body>
 </html>
-
-
-
