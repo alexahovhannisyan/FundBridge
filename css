@@ -1,0 +1,68 @@
+/* DASHBOARD GENERAL STYLE */
+.dashboard-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.dashboard-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #2C3E50;
+}
+
+.dashboard-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* FEATURE CARDS */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #1A73E8;
+}
+
+.card p {
+    color: #444;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    margin-top: 40px;
+    display: inline-block;
+    background: #1A73E8;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.back-btn:hover {
+    background: #1558b0;
+}
