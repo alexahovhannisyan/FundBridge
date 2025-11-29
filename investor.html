@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Investor Dashboard</title>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Investor Dashboard — FundBridge</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <header class="topbar">
+        <img src="assets/logo.png" alt="FundBridge logo" class="logo">
+        <h1 class="brand">FundBridge</h1>
+    </header>
 
-<div class="dashboard-container">
-    <h1>Investor Dashboard</h1>
-    <p>Explore startups, investment opportunities, and your saved projects.</p>
+    <main class="dashboard-container">
+        <h1>Investor Dashboard</h1>
+        <p class="lead">Welcome! Explore promising startups and manage your investments.</p>
 
-    <div class="features">
-        <div class="card">
-            <h3>Browse Startups</h3>
-            <p>Discover promising startups seeking funding.</p>
+        <div class="dashboard-grid">
+            <a href="startups.html" class="card">
+                <h3>Startup Directory</h3>
+                <p>Discover startups seeking investors.</p>
+            </a>
+
+            <a href="investments.html" class="card">
+                <h3>My Investments</h3>
+                <p>Track companies you support.</p>
+            </a>
+
+            <a href="calculator.html" class="card">
+                <h3>Investment Calculator</h3>
+                <p>Estimate potential returns.</p>
+            </a>
         </div>
-
-        <div class="card">
-            <h3>Your Saved Projects</h3>
-            <p>View startups you've saved for later evaluation.</p>
-        </div>
-
-        <div class="card">
-            <h3>Investment Tips</h3>
-            <p>Read educational content about safe investing.</p>
-        </div>
-    </div>
-
-    <a class="back-btn" href="index.html">⬅ Back to Home</a>
-</div>
-
+    </main>
 </body>
 </html>
 
